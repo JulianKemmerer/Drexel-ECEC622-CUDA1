@@ -1,0 +1,15 @@
+ECEC-622 Assignment #2 - Matrix-Vector Multiplication using CUDA
+John Carto and Julian Kemmerer
+
+README
+
+To Build:
+Place all files found in this archive in ~/CUDA_SDK/C/src (Preferably in a sub-directory).  Run "make clean" first, followed by "make".
+
+To Run:
+Executable can be found in ~/CUDA_SDK/C/bin/release.  Run "./vec_mat_mult" with no arguments.  The vector and matrix are randomly generated each run.
+
+Notes:
+Our shared memory implementation only achieves 3.5x speedup, like we talked about.  You said our shared memory kernel code looks just like your solution did (which achieved 10x).  If you do find the discrepancy, could you please let us know?
+
+Thanks!
